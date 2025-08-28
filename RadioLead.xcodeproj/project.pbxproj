@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4CFBE5F2E6023DB003BD580 /* RadioLead Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F4CFBE5E2E6023DB003BD580 /* RadioLead Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4CFBE602E6023DB003BD580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CFBE522E6023DB003BD580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CFBE5D2E6023DB003BD580;
+			remoteInfo = "RadioLead Watch App";
+		};
+		F4CFBE6E2E6023DD003BD580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CFBE522E6023DB003BD580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CFBE5D2E6023DB003BD580;
+			remoteInfo = "RadioLead Watch App";
+		};
+		F4CFBE782E6023DD003BD580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CFBE522E6023DB003BD580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CFBE5D2E6023DB003BD580;
+			remoteInfo = "RadioLead Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4CFBE842E6023DD003BD580 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F4CFBE5F2E6023DB003BD580 /* RadioLead Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4CFBE582E6023DB003BD580 /* RadioLead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioLead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CFBE5E2E6023DB003BD580 /* RadioLead Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RadioLead Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CFBE6D2E6023DD003BD580 /* RadioLead Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RadioLead Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CFBE772E6023DD003BD580 /* RadioLead Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RadioLead Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F4CFBE622E6023DB003BD580 /* RadioLead Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RadioLead Watch App";
+			sourceTree = "<group>";
+		};
+		F4CFBE702E6023DD003BD580 /* RadioLead Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RadioLead Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F4CFBE7A2E6023DD003BD580 /* RadioLead Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RadioLead Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CFBE5B2E6023DB003BD580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CFBE6A2E6023DD003BD580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CFBE742E6023DD003BD580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CFBE512E6023DB003BD580 = {
+			isa = PBXGroup;
+			children = (
+				F4CFBE622E6023DB003BD580 /* RadioLead Watch App */,
+				F4CFBE702E6023DD003BD580 /* RadioLead Watch AppTests */,
+				F4CFBE7A2E6023DD003BD580 /* RadioLead Watch AppUITests */,
+				F4CFBE592E6023DB003BD580 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CFBE592E6023DB003BD580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFBE582E6023DB003BD580 /* RadioLead.app */,
+				F4CFBE5E2E6023DB003BD580 /* RadioLead Watch App.app */,
+				F4CFBE6D2E6023DD003BD580 /* RadioLead Watch AppTests.xctest */,
+				F4CFBE772E6023DD003BD580 /* RadioLead Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CFBE572E6023DB003BD580 /* RadioLead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CFBE852E6023DD003BD580 /* Build configuration list for PBXNativeTarget "RadioLead" */;
+			buildPhases = (
+				F4CFBE562E6023DB003BD580 /* Resources */,
+				F4CFBE842E6023DD003BD580 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CFBE612E6023DB003BD580 /* PBXTargetDependency */,
+			);
+			name = RadioLead;
+			packageProductDependencies = (
+			);
+			productName = RadioLead;
+			productReference = F4CFBE582E6023DB003BD580 /* RadioLead.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F4CFBE5D2E6023DB003BD580 /* RadioLead Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CFBE812E6023DD003BD580 /* Build configuration list for PBXNativeTarget "RadioLead Watch App" */;
+			buildPhases = (
+				F4CFBE5A2E6023DB003BD580 /* Sources */,
+				F4CFBE5B2E6023DB003BD580 /* Frameworks */,
+				F4CFBE5C2E6023DB003BD580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F4CFBE622E6023DB003BD580 /* RadioLead Watch App */,
+			);
+			name = "RadioLead Watch App";
+			packageProductDependencies = (
+			);
+			productName = "RadioLead Watch App";
+			productReference = F4CFBE5E2E6023DB003BD580 /* RadioLead Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4CFBE6C2E6023DD003BD580 /* RadioLead Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CFBE882E6023DD003BD580 /* Build configuration list for PBXNativeTarget "RadioLead Watch AppTests" */;
+			buildPhases = (
+				F4CFBE692E6023DD003BD580 /* Sources */,
+				F4CFBE6A2E6023DD003BD580 /* Frameworks */,
+				F4CFBE6B2E6023DD003BD580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CFBE6F2E6023DD003BD580 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F4CFBE702E6023DD003BD580 /* RadioLead Watch AppTests */,
+			);
+			name = "RadioLead Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "RadioLead Watch AppTests";
+			productReference = F4CFBE6D2E6023DD003BD580 /* RadioLead Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4CFBE762E6023DD003BD580 /* RadioLead Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CFBE8B2E6023DD003BD580 /* Build configuration list for PBXNativeTarget "RadioLead Watch AppUITests" */;
+			buildPhases = (
+				F4CFBE732E6023DD003BD580 /* Sources */,
+				F4CFBE742E6023DD003BD580 /* Frameworks */,
+				F4CFBE752E6023DD003BD580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CFBE792E6023DD003BD580 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F4CFBE7A2E6023DD003BD580 /* RadioLead Watch AppUITests */,
+			);
+			name = "RadioLead Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "RadioLead Watch AppUITests";
+			productReference = F4CFBE772E6023DD003BD580 /* RadioLead Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CFBE522E6023DB003BD580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F4CFBE572E6023DB003BD580 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F4CFBE5D2E6023DB003BD580 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F4CFBE6C2E6023DD003BD580 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F4CFBE5D2E6023DB003BD580;
+					};
+					F4CFBE762E6023DD003BD580 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F4CFBE5D2E6023DB003BD580;
+					};
+				};
+			};
+			buildConfigurationList = F4CFBE552E6023DB003BD580 /* Build configuration list for PBXProject "RadioLead" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CFBE512E6023DB003BD580;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4CFBE592E6023DB003BD580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CFBE572E6023DB003BD580 /* RadioLead */,
+				F4CFBE5D2E6023DB003BD580 /* RadioLead Watch App */,
+				F4CFBE6C2E6023DD003BD580 /* RadioLead Watch AppTests */,
+				F4CFBE762E6023DD003BD580 /* RadioLead Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CFBE562E6023DB003BD580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CFBE5C2E6023DB003BD580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CFBE6B2E6023DD003BD580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CFBE752E6023DD003BD580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CFBE5A2E6023DB003BD580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CFBE692E6023DD003BD580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CFBE732E6023DD003BD580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4CFBE612E6023DB003BD580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CFBE5D2E6023DB003BD580 /* RadioLead Watch App */;
+			targetProxy = F4CFBE602E6023DB003BD580 /* PBXContainerItemProxy */;
+		};
+		F4CFBE6F2E6023DD003BD580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CFBE5D2E6023DB003BD580 /* RadioLead Watch App */;
+			targetProxy = F4CFBE6E2E6023DD003BD580 /* PBXContainerItemProxy */;
+		};
+		F4CFBE792E6023DD003BD580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CFBE5D2E6023DB003BD580 /* RadioLead Watch App */;
+			targetProxy = F4CFBE782E6023DD003BD580 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4CFBE7F2E6023DD003BD580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4CFBE802E6023DD003BD580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F4CFBE822E6023DD003BD580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RadioLead;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evanmass.RadioLead.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		F4CFBE832E6023DD003BD580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RadioLead;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evanmass.RadioLead.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		F4CFBE862E6023DD003BD580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = RadioLead;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evanmass.RadioLead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4CFBE872E6023DD003BD580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = RadioLead;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evanmass.RadioLead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4CFBE892E6023DD003BD580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evanmass.RadioLead-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioLead Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioLead Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		F4CFBE8A2E6023DD003BD580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evanmass.RadioLead-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioLead Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioLead Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		F4CFBE8C2E6023DD003BD580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evanmass.RadioLead-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RadioLead Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		F4CFBE8D2E6023DD003BD580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evanmass.RadioLead-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RadioLead Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CFBE552E6023DB003BD580 /* Build configuration list for PBXProject "RadioLead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CFBE7F2E6023DD003BD580 /* Debug */,
+				F4CFBE802E6023DD003BD580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CFBE812E6023DD003BD580 /* Build configuration list for PBXNativeTarget "RadioLead Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CFBE822E6023DD003BD580 /* Debug */,
+				F4CFBE832E6023DD003BD580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CFBE852E6023DD003BD580 /* Build configuration list for PBXNativeTarget "RadioLead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CFBE862E6023DD003BD580 /* Debug */,
+				F4CFBE872E6023DD003BD580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CFBE882E6023DD003BD580 /* Build configuration list for PBXNativeTarget "RadioLead Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CFBE892E6023DD003BD580 /* Debug */,
+				F4CFBE8A2E6023DD003BD580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CFBE8B2E6023DD003BD580 /* Build configuration list for PBXNativeTarget "RadioLead Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CFBE8C2E6023DD003BD580 /* Debug */,
+				F4CFBE8D2E6023DD003BD580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CFBE522E6023DB003BD580 /* Project object */;
+}
