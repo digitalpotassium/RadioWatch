@@ -5,16 +5,21 @@ struct PlayerView: View {
     @ObservedObject var favoritesStore: FavoritesStore
     var station: RadioStation
 
-    init(audioPlayer: AudioPlayer, station: RadioStation, favoritesStore: FavoritesStore) {
-        self.audioPlayer = audioPlayer
-        self.station = station
-        self.favoritesStore = favoritesStore
-    }
-
     var body: some View {
         VStack(spacing: 20) {
+            if let faviconURL = station.favicon, let url = URL(string: faviconURL) {
+                AsyncImage(url: url) { image in
+                    image.resizable()
+                } placeholder: {
+                    Image(systemName: "radio")
+                }
+                .frame(width: 100, height: 100)
+                .clipShape(RoundedRectangle(cornerRadius: 12))
+                .shadow(radius: 10)
+            }
+            
             Text(station.name)
-                .font(.title3)
+                .font(.title2)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
 
@@ -30,6 +35,7 @@ struct PlayerView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 70, height: 70)
+                        .scaleEffect(audioPlayer.isPlaying ? 1.0 : 1.1)
                 }
                 .buttonStyle(PlainButtonStyle())
 
@@ -45,10 +51,13 @@ struct PlayerView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 40, height: 40)
                         .foregroundColor(favoritesStore.isFavorite(station) ? .yellow : .gray)
+                        .scaleEffect(favoritesStore.isFavorite(station) ? 1.2 : 1.0)
                 }
                 .buttonStyle(PlainButtonStyle())
             }
         }
         .padding()
+        .animation(.easeInOut, value: audioPlayer.isPlaying)
+        .animation(.bouncy, value: favoritesStore.isFavorite(station))
     }
 }

@@ -2,9 +2,10 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var stations = [RadioStation]()
-    @State private var searchText = "US"
+    @State private var searchText = ""
     @StateObject private var audioPlayer = AudioPlayer()
     @StateObject private var favoritesStore = FavoritesStore()
+    @State private var isLoading = false
     
     private let radioService = RadioService()
 
@@ -22,8 +23,12 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 searchBar
-                List(stations) { station in
-                    stationRow(for: station)
+                if isLoading {
+                    ProgressView()
+                } else {
+                    List(filteredStations) { station in
+                        stationRow(for: station)
+                    }
                 }
             }
             .navigationTitle("Watch Radio")
@@ -42,22 +47,37 @@ struct ContentView: View {
 
     private var searchBar: some View {
         HStack {
-            // The unavailable .textFieldStyle modifier has been removed.
-            TextField("Country Code", text: $searchText)
-            
-            Button("Search") {
-                loadStations()
-            }
-            .buttonStyle(BorderedButtonStyle(tint: .blue))
+            TextField("Search by name or country", text: $searchText)
         }
         .padding(.horizontal)
         .padding(.top, 8)
     }
+    
+    private var filteredStations: [RadioStation] {
+        if searchText.isEmpty {
+            return stations
+        } else {
+            return stations.filter {
+                $0.name.localizedCaseInsensitiveContains(searchText) || $0.countrycode.localizedCaseInsensitiveContains(searchText)
+            }
+        }
+    }
 
     @ViewBuilder
     private func stationRow(for station: RadioStation) -> some View {
-        NavigationLink(destination: PlayerView(audioPlayer: audioPlayer, station: station, favoritesStore: favoritesStore)) {
+        // The argument order for PlayerView has been corrected below
+        NavigationLink(destination: PlayerView(audioPlayer: audioPlayer, favoritesStore: favoritesStore, station: station)) {
             HStack {
+                if let faviconURL = station.favicon, let url = URL(string: faviconURL) {
+                    AsyncImage(url: url) { image in
+                        image.resizable()
+                    } placeholder: {
+                        Image(systemName: "radio")
+                    }
+                    .frame(width: 40, height: 40)
+                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                }
+                
                 VStack(alignment: .leading) {
                     Text(station.name)
                         .font(.headline)
@@ -78,7 +98,9 @@ struct ContentView: View {
     }
 
     func loadStations() {
-        radioService.fetchStations(countryCode: searchText) { result in
+        isLoading = true
+        radioService.fetchAllStations { result in
+            isLoading = false
             switch result {
             case .success(let fetchedStations):
                 self.stations = fetchedStations.map { station in
